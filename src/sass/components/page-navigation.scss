@@ -1,0 +1,48 @@
+.page-navigation__nav{
+    width: 622px;
+}
+
+.page-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 186px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;  
+    align-items: baseline;
+    list-style: none;
+    font-family: $main-font-stack;
+}
+
+.nav__item{
+    display: flex;
+}
+
+.nav__link{
+    text-transform: uppercase;
+    color: $text-bg-color;
+    font-family: $main-font-stack;
+    border-bottom: solid 3px transparent;
+    padding-bottom: 12px;   
+}
+
+
+.nav__link:hover{
+    border-bottom: $accent-color solid 3px;
+}
+
+.nav__link:hover,
+.nav__link:focus{
+    color: $accent-color;
+}
+
+.nav__link--icon svg{
+    width: 20px;
+    height: 20px;
+    fill: $text-bg-color;
+}
+.nav__link--icon svg:hover{
+    fill: $accent-color;
+}

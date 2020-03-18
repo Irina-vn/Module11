@@ -1,0 +1,55 @@
+.section-footer{
+    max-height: 64px;
+    width: 1202px;
+    position: relative;
+}
+
+.section-footer::before{
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    content: "";
+    margin: auto;
+}
+
+.section-footer__basement{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 1202px;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+
+.section-footer__signature{
+    color: $primary-color-dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-footer__signature:hover{
+    color: $accent-color-icon;
+}
+
+.section-footer__form{
+    display: flex;
+    flex-basis: 380px;
+    height: 40px;
+}
+
+.section-footer__form--input{
+    width: 230px;
+    height: 40px;
+    color: $input-color;
+    font-family: $font-text;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.section-footer__button{
+    width: 150px;
+    height: 40px;
+    background-color: $button-bg-color;
+    color: $text-bg-color;
+    text-transform: uppercase;
+    border: 0;
+}

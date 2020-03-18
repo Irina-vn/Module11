@@ -1,0 +1,29 @@
+.baner{
+    text-align: center;
+}
+
+.baner__title{
+    color: $text-bg-color;
+    font-family: $font-title;
+    font-size: 72px;
+    font-weight: 400;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.baner__subtitle{
+    color: $text-bg-color;
+    font-family: $text-bg-color;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 126px;
+}
+
+.baner__button{
+    padding: 16px 30px;
+    border: $text-bg-color solid 3px;
+    background-color: transparent;
+    color: $text-bg-color;
+    text-transform: uppercase;
+}

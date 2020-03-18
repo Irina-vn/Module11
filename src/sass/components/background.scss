@@ -1,0 +1,13 @@
+.background{
+    position: relative;
+    background-image: url(../images/baner1.png);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+
+    @media print and (min-resolution: 192dpi), (min-resolution: 2dppx){
+        .background{
+            background-image: url(../images/baner@2x.jpg);
+        }
+    }
+}

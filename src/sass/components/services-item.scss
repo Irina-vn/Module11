@@ -1,0 +1,45 @@
+.services__item--photography::before{
+    content: url(../images/icon/alarm.svg);
+}
+.services__item--design::before{
+    content: url(../images/icon/line_graph.svg);
+}
+
+.services__item--creativity::before{
+    content: url(../images/icon/computer.svg);
+}
+
+.services__item--seo::before{
+    content: url(../images/icon/book.svg);
+}
+
+.services__item--css::before{
+    content: url(../images/icon/home.svg);
+}
+
+.services__item--digital::before{
+    content: url(../images/icon/image.svg);
+}
+
+.services__item{
+    text-overflow: ellipsis;
+    flex-basis: 338px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 102px;
+}
+
+.services__item--name{
+    color: $primary-color-dark;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-left: 30px;
+
+}
+
+.services__item--text{
+   font-family: $font-text;
+   font-size: 15px;
+   padding-left: 60px;
+
+}
